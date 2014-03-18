@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name='keywords' content='WebRTC, tictactoe, multiplayer' />
+	<meta name='description' content='Video enabled Browser to Browser Multiplayer TicTacToe' />
+	<title>TicTacToe</title>
+	<link rel='stylesheet' href='css/main.css' />
+
+</head>
+
+<body>
+	<div id='container'>
+
+		<div id='videos'>
+			<video id='localVideo' autoplay muted></video>
+			
+			<textarea id="info" disabled="disabled">
+			</textarea>
+			<video id='remoteVideo' autoplay muted></video>
+		</div>
+
+		<div id='game'>
+			<div id='score'>
+				<h3 id="lastwinner" class="centerScore"></h3>
+				<h1 class="centerScore">X</h1><h2 id="xscore">0</h2>-<h2 id="oscore">0</h2><h1>O</h1>
+			</div>
+			
+			<table id="tictactoe" >
+			</table>
+		</div>
+		
+	</div>
+
+	<script src='js/lib/socket.io.js'></script>
+	<script src='js/lib/adapter.js'></script>
+	<script src='js/tictactoe.js'></script>
+	<script src='js/main.js'></script>
+	
+</body>
+
+</html>

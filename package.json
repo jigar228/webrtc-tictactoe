@@ -1,0 +1,13 @@
+{
+  "name": "webrtc-tictactoe",
+  "version": "0.0.0",
+  "description": "signalling server for webrtc enabled tictactoe app",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mostafa@c9.io>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  }
+}

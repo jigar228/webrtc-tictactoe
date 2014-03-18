@@ -1,0 +1,33 @@
+table{
+	font-size:5.5em;
+	border-collapse: collapse;
+	width:4.5ex;
+	margin: 0 auto;
+}
+td{
+	vertical-align: middle;
+	border: 2px solid #000000;
+	padding: 1.5ex 1.5ex;
+}
+tr{
+	padding: 0px;
+}
+video,textarea {
+  width: 360px;
+  height: 240px;
+}
+#remoteVideo{
+	float:right;
+	float:top;
+}
+#score,h1,h2{
+	display: inline;
+	vertical-align: sub;
+}
+.centerScore{
+	margin-left:45%;
+}
+#game{
+	width: 50%;
+	margin: 0 auto;
+}
